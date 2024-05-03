@@ -79,6 +79,8 @@ header {
   background: transparent url("../img/header.jpg") no-repeat scroll center center/cover;
   display: flex;
   align-items: end;
+  position: relative;
+  z-index: 1;
 }
 header .main_menu {
   margin-bottom: -20px;
