@@ -1,0 +1,31 @@
+/* slider */
+#slider {
+  text-align: center;
+}
+#slider .slider_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#slider .slider_item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -104px;
+  margin-top: -104px;
+  width: 207px;
+  height: 207px;
+  background: transparent url("../img/play_button.svg") no-repeat scroll center center/cover;
+}
+
+/* slider ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* slider: end *//*# sourceMappingURL=video.css.map */

@@ -1,0 +1,30 @@
+/* TOPBAR */
+#topbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#topbar a {
+  color: #fff;
+  text-decoration: none;
+  vertical-align: bottom;
+  display: inline-block;
+  align-self: center;
+  padding-: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+#topbar .top_phone {
+  line-height: 30px;
+  align-self: center;
+  padding-top: 8px;
+}
+#topbar .top_phone:hover {
+  color: #FDAE00;
+}
+#topbar .top_whatsapp {
+  margin-left: auto;
+}
+#topbar .top_whatsapp img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=topbar.css.map */
