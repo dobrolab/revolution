@@ -1,6 +1,5 @@
-/*# sourceMappingURL=styles.css.map */
-/*# sourceMappingURL=styles.css.map */* {
-    transition: all 0.3s ease;
+* {
+  transition: all 0.3s ease;
 }
 
 html {
@@ -73,12 +72,15 @@ p {
   height: 30px;
 }
 
+/* HEADER */
 header {
   height: 340px;
   text-align: center;
-  background: transparent url("/img/header.jpg") no-repeat scroll center center/cover;
+  background: transparent url("../img/header.jpg") no-repeat scroll center center/cover;
   display: flex;
   align-items: end;
+  position: relative;
+  z-index: 1;
 }
 header .main_menu {
   margin-bottom: -20px;
@@ -95,29 +97,19 @@ header .main_menu a:hover {
   color: #FDAE00;
 }
 
-/* offer */
-#offer {
-  background: transparent url("../img/offer.jpg") no-repeat scroll center center/cover;
-}
-#offer .offer_text {
-  font-family: "Montserrat Subrayada", sans-serif;
-  font-size: 56px;
-  color: #FDAE00;
-}
-
-/* offer ADAPTIVE */
-/* offer: end */
-/* slider */
-#slider {
+/* HEADER: end */
+/* video */
+#video {
   text-align: center;
+  z-index: 0;
 }
-#slider .slider_item {
+#video .video_item {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
-#slider .slider_item::after {
+#video .video_item::after {
   content: "";
   display: block;
   position: absolute;
@@ -130,24 +122,11 @@ header .main_menu a:hover {
   background: transparent url("../img/play_button.svg") no-repeat scroll center center/cover;
 }
 
-/* slider ADAPTIVE */
+/* video ADAPTIVE */
 /* // XXL */
 /* // XL */
 /* // LG */
 /* // MD */
 /* // SM */
 /* // XS */
-/* slider: end */
-/* about */
-#about {
-  background: transparent url("../img/about_bg.jpg") no-repeat scroll center center/cover;
-}
-
-/* about ADAPTIVE */
-/* // XXL */
-/* // XL */
-/* // LG */
-/* // MD */
-/* // SM */
-/* // XS */
-/* about: end *//*# sourceMappingURL=styles.css.map */
+/* video: end *//*# sourceMappingURL=styles.css.map */
