@@ -39,6 +39,13 @@ h2 {
 
 p {
   line-height: 170%;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+welcome-h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
 }
 
 /* TOPBAR */
@@ -130,12 +137,7 @@ header .main_menu a:hover {
 /* // SM */
 /* // XS */
 /* video: end */
-
 /* PHOTOSLIDER */
-.button-text{
-  text-decoration: none;
-}
-
 /* PHOTOSLIDER ADAPTIVE */
 /* // XXL */
 /* // XL */
@@ -143,6 +145,17 @@ header .main_menu a:hover {
 /* // MD */
 /* // SM */
 /* // XS */
+@media (max-width: 575px) {
+  welcome-h5 {
+    font-size: 24px;
+  }
+  a {
+    text-decoration: none;
+  }
+  button-text {
+    text-decoration: none;
+  }
+}
 /* PHOTOSLIDER: end */
 /* contacts */
 /* contacts ADAPTIVE */
@@ -152,6 +165,13 @@ header .main_menu a:hover {
 /* // MD */
 /* // SM */
 /* // XS */
+@media (max-width: 575px) {
+  .img-contact {
+    padding-left: 10px;
+    width: 84px;
+    height: 84px;
+  }
+}
 /* contacts: end */
 /* FOOTER */
 /* FOOTER ADAPTIVE */
