@@ -43,11 +43,6 @@ p {
   font-size: 20px;
 }
 
-welcome-h5 {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-}
-
 /* TOPBAR */
 #topbar {
   padding-top: 10px;
@@ -137,7 +132,39 @@ header .main_menu a:hover {
 /* // SM */
 /* // XS */
 /* video: end */
+/* welcome */
+#welcome .welcome-h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
+/* WELCOME ADAPTIVE */
+/* // XXL */
+/* // XL */
+/* // LG */
+/* // MD */
+/* // SM */
+/* // XS */
+/* WELCOME: end */
 /* PHOTOSLIDER */
+#photoslider strong {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+#photoslider .art_of_dance_text {
+  margin-right: 30px;
+  padding-top: 10px;
+}
+#photoslider .white {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+#photoslider .grey {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: #89847F;
+}
+
 /* PHOTOSLIDER ADAPTIVE */
 /* // XXL */
 /* // XL */
@@ -145,19 +172,17 @@ header .main_menu a:hover {
 /* // MD */
 /* // SM */
 /* // XS */
-@media (max-width: 575px) {
-  welcome-h5 {
-    font-size: 24px;
-  }
-  a {
-    text-decoration: none;
-  }
-  button-text {
-    text-decoration: none;
-  }
-}
 /* PHOTOSLIDER: end */
 /* contacts */
+#contacts .img-contact {
+  width: 84px;
+  height: 84px;
+}
+#contacts strong {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
 /* contacts ADAPTIVE */
 /* // XXL */
 /* // XL */
@@ -165,13 +190,6 @@ header .main_menu a:hover {
 /* // MD */
 /* // SM */
 /* // XS */
-@media (max-width: 575px) {
-  .img-contact {
-    padding-left: 10px;
-    width: 84px;
-    height: 84px;
-  }
-}
 /* contacts: end */
 /* FOOTER */
 footer {
