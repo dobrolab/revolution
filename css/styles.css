@@ -158,11 +158,19 @@ header .main_menu a:hover {
 #photoslider .white {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 #photoslider .grey {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  margin-bottom: 10px;
   color: #89847F;
+}
+#photoslider .white-padd {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 70px;
 }
 
 /* PHOTOSLIDER ADAPTIVE */
@@ -177,6 +185,10 @@ header .main_menu a:hover {
 #contacts .img-contact {
   width: 84px;
   height: 84px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #contacts strong {
   font-family: "Raleway", sans-serif;
