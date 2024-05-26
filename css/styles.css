@@ -133,9 +133,19 @@ header .main_menu a:hover {
 /* // XS */
 /* video: end */
 /* welcome */
+#welcome .img_tiaa_welcome {
+  height: 250px;
+}
 #welcome .welcome-h5 {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
+}
+#welcome .h2 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: #FDAE00;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 60px;
 }
 
 /* WELCOME ADAPTIVE */
@@ -147,6 +157,16 @@ header .main_menu a:hover {
 /* // XS */
 /* WELCOME: end */
 /* PHOTOSLIDER */
+#photoslider .carousel-control-next-icon {
+  display: flex;
+  height: 80px;
+  width: 45px;
+  color: #FDAE00;
+}
+#photoslider .carousel-control-prev-icon {
+  height: 80px;
+  width: 45px;
+}
 #photoslider strong {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
@@ -166,11 +186,15 @@ header .main_menu a:hover {
   margin-bottom: 10px;
   color: #89847F;
 }
-#photoslider .white-padd {
+#photoslider .white {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   margin-bottom: 10px;
-  margin-left: 70px;
+}
+#photoslider .white-bott {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 /* PHOTOSLIDER ADAPTIVE */
@@ -181,14 +205,48 @@ header .main_menu a:hover {
 /* // SM */
 /* // XS */
 /* PHOTOSLIDER: end */
+#gallery-slider {
+  text-align: center;
+}
+
+#gallery-slider .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#gallery-slider .carousel-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -104px;
+  margin-top: -104px;
+  width: 207px;
+  height: 207px;
+  background: transparent url("../img/play_button.svg") no-repeat scroll center center/cover;
+}
+
 /* contacts */
+#contacts .h2 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: #FDAE00;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+#contacts .welcome-h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
 #contacts .img-contact {
   width: 84px;
   height: 84px;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 #contacts strong {
   font-family: "Raleway", sans-serif;
@@ -205,6 +263,7 @@ header .main_menu a:hover {
 /* contacts: end */
 /* FOOTER */
 footer {
+  margin-top: 60px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #060F0A;

@@ -1,0 +1,19 @@
+#gallery-slider
+    text-align: center
+
+#gallery-slider .carousel-item
+        display: flex
+        align-items: center
+        justify-content: center
+        position: relative
+#gallery-slider .carousel-item::after
+        content: ""
+        display: block
+        position: absolute
+        top: 50%
+        left: 50%
+        margin-left: -104px
+        margin-top: -104px
+        width: 207px
+        height: 207px
+        background: transparent url("../img/play_button.svg") no-repeat scroll center center/cover
